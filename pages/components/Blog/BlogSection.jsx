@@ -2,7 +2,7 @@ import React from 'react';
 import Section from '../UI/Section';
 import FeaturedPost from './FeaturedPost';
 import PostCard from './PostCard';
-import { blogData } from '../../data/blogData';
+import { blogData } from '@/src/data/blogData';
 
 const BlogSection = () => (
   <Section

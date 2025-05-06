@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Section from '../UI/Section';
 import FilterButtons from './FilterButtons';
 import ProjectCard from './ProjectCard';
-import { projectsData } from '../../data/projectsData';
+import { projectsData } from '@/src/data/projectsData';
 
 const ProjectsSection = () => {
   const [activeFilter, setActiveFilter] = useState('all');

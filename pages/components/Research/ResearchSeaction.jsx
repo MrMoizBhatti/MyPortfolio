@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Section from '../UI/Section';
 import Card, { CardBody, CardFooter } from '../UI/Card';
 import { ExternalLink, Filter } from 'lucide-react';
-import { researchData } from '../../data/reserchData'; // Adjust the import path as necessary
+import { researchData } from '@/src/data/reserchData'; // Adjust the import path as necessary
 
 const ResearchSection = () => {
   const [activeFilter, setActiveFilter] = useState('all');
