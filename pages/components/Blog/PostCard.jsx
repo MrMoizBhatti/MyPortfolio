@@ -4,7 +4,11 @@ import { Calendar, User, ArrowRight } from 'lucide-react';
 
 const PostCard = ({ post }) => (
   <Card className="flex flex-col h-full">
-    <CardImage src={post.image} alt={post.title} className="h-48" />
+    <CardImage
+      src={post.image || '/default-blog-image.jpg'}
+      alt={post.title || 'Untitled post'}
+      className="h-48"
+    />
     <CardBody className="flex-grow">
       <div className="flex flex-wrap items-center text-sm text-gray-500 mb-3">
         <span className="flex items-center mr-4">
